@@ -73,6 +73,10 @@ jobs:
             build: "musllinux_"
             use_qemu: true
           - os: ubuntu-22.04
+            arch: "riscv64"
+            build: "musllinux_"
+            use_qemu: true
+          - os: ubuntu-22.04
             arch: "s390x"
             build: "manylinux_"
             use_qemu: true
